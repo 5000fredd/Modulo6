@@ -1,0 +1,12 @@
+Practica2 Vue3
+Nombre(s) de integrante(s):
+- Freddy Mendoza Martinez
+
+Pasos para iniciar el proyecto
+1) npm install
+2) npm install --save axios vue-axios
+3) npm install -g json-server@0.17.1
+4) npm run serve
+5) json-server --watch db.json --port 4000
+6) Ingresar a: http://localhost:8080/
+ 

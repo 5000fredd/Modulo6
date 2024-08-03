@@ -1,0 +1,162 @@
+{
+  "clientes": [
+    {
+      "id": "1",
+      "nombre": "Joel Escobar",
+      "telefono": "78478421",
+      "direccion": "Obrajes"
+    },
+    {
+      "id": "2",
+      "nombre": "Raul",
+      "telefono": "78002151",
+      "direccion": "Calacoto"
+    },
+    {
+      "id": "3",
+      "nombre": "Monica",
+      "telefono": "79854124",
+      "direccion": "Obrajes"
+    },
+    {
+      "id": "4",
+      "nombre": "Ruben",
+      "telefono": "78412211",
+      "direccion": "Max Paredes"
+    },
+    {
+      "id": "5",
+      "nombre": "Elias",
+      "telefono": "74512474",
+      "direccion": "San Pedro"
+    },
+    {
+      "id": "6",
+      "nombre": "Manuel",
+      "telefono": "75414274",
+      "direccion": "Garita de Lima"
+    },
+    {
+      "id": "7",
+      "nombre": "Ana",
+      "telefono": "77554411",
+      "direccion": "Cruce Villa Adela"
+    },
+    {
+      "nombre": "Nuevo",
+      "telefono": "78441124",
+      "direccion": "Alto lima",
+      "id": "kmrjV79"
+    }
+  ],
+  "categorias": [
+    {
+      "id": "1",
+      "nombre": "Cereales"
+    },
+    {
+      "id": "2",
+      "nombre": "Enlatados"
+    },
+    {
+      "id": "3",
+      "nombre": "Masas"
+    },
+    {
+      "id": "4",
+      "nombre": "Frutas"
+    },
+    {
+      "id": "5",
+      "nombre": "Material Escolar"
+    }
+  ],
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Fideo caracol",
+      "descripcion": "Marca Lazaroni",
+      "precio": "4",
+      "categoriaId": "1",
+      "categoria": {
+        "id": "2",
+        "nombre": "Enlatados"
+      }
+    },
+    {
+      "id": "2",
+      "nombre": "Manzana",
+      "descripcion": "Rojas",
+      "precio": "2",
+      "categoriaId": "4"
+    },
+    {
+      "id": "3",
+      "nombre": "avena",
+      "descripcion": "Caja mediana",
+      "precio": "12",
+      "categoriaId": "1"
+    },
+    {
+      "id": "4",
+      "nombre": "palmito",
+      "descripcion": "Lata peque",
+      "precio": "12",
+      "categoriaId": "2"
+    },
+    {
+      "id": "5",
+      "nombre": "Galletas",
+      "descripcion": "Caja de animalitos",
+      "precio": "15",
+      "categoriaId": "3"
+    },
+    {
+      "id": "6",
+      "nombre": "Papas Fritas",
+      "descripcion": "Picantes",
+      "precio": "13",
+      "categoriaId": "1"
+    },
+    {
+      "id": "7",
+      "nombre": "Hojas bon",
+      "descripcion": "Paquete carta",
+      "precio": "25",
+      "categoriaId": "5"
+    },
+    {
+      "id": "8",
+      "nombre": "cartulina",
+      "descripcion": "color azul",
+      "precio": "3",
+      "categoriaId": "5"
+    }
+  ],
+  "ventas": [
+    {
+      "id": "1",
+      "codigo": "V002",
+      "clienteId": "1",
+      "productoId": "1"
+    },
+    {
+      "id": "2",
+      "codigo": "V003",
+      "clienteId": "2",
+      "productoId": "2"
+    },
+    {
+      "id": "3",
+      "codigo": "V004",
+      "clienteId": "3",
+      "productoId": "3"
+    },
+    {
+      "id": "4",
+      "codigo": "V005",
+      "clienteId": "4",
+      "productoId": "4"
+    }
+  ]
+}
